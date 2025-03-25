@@ -1,0 +1,6 @@
+@CA2_MobileProject_HostAddress = http://localhost:5215
+
+GET {{CA2_MobileProject_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
