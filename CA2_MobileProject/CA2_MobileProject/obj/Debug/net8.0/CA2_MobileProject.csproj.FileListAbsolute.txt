@@ -82,7 +82,6 @@ C:\CA2_MobileProject\CA2_MobileProject\CA2_MobileProject\CA2_MobileProject\obj\D
 C:\CA2_MobileProject\CA2_MobileProject\CA2_MobileProject\CA2_MobileProject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CA2_MobileProject.props
 C:\CA2_MobileProject\CA2_MobileProject\CA2_MobileProject\CA2_MobileProject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CA2_MobileProject.props
 C:\CA2_MobileProject\CA2_MobileProject\CA2_MobileProject\CA2_MobileProject\obj\Debug\net8.0\staticwebassets.pack.json
-C:\CA2_MobileProject\CA2_MobileProject\CA2_MobileProject\CA2_MobileProject\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\CA2_MobileProject\CA2_MobileProject\CA2_MobileProject\CA2_MobileProject\obj\Debug\net8.0\CA2_Mobi.3B96AD0E.Up2Date
 C:\CA2_MobileProject\CA2_MobileProject\CA2_MobileProject\CA2_MobileProject\obj\Debug\net8.0\CA2_MobileProject.dll
 C:\CA2_MobileProject\CA2_MobileProject\CA2_MobileProject\CA2_MobileProject\obj\Debug\net8.0\refint\CA2_MobileProject.dll
