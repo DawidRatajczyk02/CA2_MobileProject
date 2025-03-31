@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\CA2_MobileProject\\CA2_MobileProject\\CA2_MobileProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5AF83CBB-B62D-4477-8E48-045A5406F580}|CA2_MobileProject\\CA2_MobileProject.csproj|c:\\ca2_mobileproject\\ca2_mobileproject\\ca2_mobileproject\\ca2_mobileproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AF83CBB-B62D-4477-8E48-045A5406F580}|CA2_MobileProject\\CA2_MobileProject.csproj|solutionrelative:ca2_mobileproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5AF83CBB-B62D-4477-8E48-045A5406F580}|CA2_MobileProject\\CA2_MobileProject.csproj|c:\\ca2_mobileproject\\ca2_mobileproject\\ca2_mobileproject\\ca2_mobileproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5AF83CBB-B62D-4477-8E48-045A5406F580}|CA2_MobileProject\\CA2_MobileProject.csproj|solutionrelative:ca2_mobileproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5AF83CBB-B62D-4477-8E48-045A5406F580}|CA2_MobileProject\\CA2_MobileProject.csproj|c:\\ca2_mobileproject\\ca2_mobileproject\\ca2_mobileproject\\ca2_mobileproject\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5AF83CBB-B62D-4477-8E48-045A5406F580}|CA2_MobileProject\\CA2_MobileProject.csproj|solutionrelative:ca2_mobileproject\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AF83CBB-B62D-4477-8E48-045A5406F580}|CA2_MobileProject\\CA2_MobileProject.csproj|c:\\ca2_mobileproject\\ca2_mobileproject\\ca2_mobileproject\\ca2_mobileproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5AF83CBB-B62D-4477-8E48-045A5406F580}|CA2_MobileProject\\CA2_MobileProject.csproj|solutionrelative:ca2_mobileproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5AF83CBB-B62D-4477-8E48-045A5406F580}|CA2_MobileProject\\CA2_MobileProject.csproj|c:\\ca2_mobileproject\\ca2_mobileproject\\ca2_mobileproject\\ca2_mobileproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AF83CBB-B62D-4477-8E48-045A5406F580}|CA2_MobileProject\\CA2_MobileProject.csproj|solutionrelative:ca2_mobileproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5AF83CBB-B62D-4477-8E48-045A5406F580}|CA2_MobileProject\\CA2_MobileProject.csproj|c:\\ca2_mobileproject\\ca2_mobileproject\\ca2_mobileproject\\ca2_mobileproject\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -52,7 +52,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -64,8 +64,7 @@
               "RelativeToolTip": "CA2_MobileProject\\Controllers\\UsersController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T17:08:17.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T17:08:17.065Z"
             },
             {
               "$type": "Document",
@@ -93,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\CA2_MobileProject\\CA2_MobileProject\\CA2_MobileProject\\CA2_MobileProject\\appsettings.json",
               "RelativeDocumentMoniker": "CA2_MobileProject\\appsettings.json",
@@ -106,13 +105,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\CA2_MobileProject\\CA2_MobileProject\\CA2_MobileProject\\CA2_MobileProject\\Program.cs",
               "RelativeDocumentMoniker": "CA2_MobileProject\\Program.cs",
               "ToolTip": "C:\\CA2_MobileProject\\CA2_MobileProject\\CA2_MobileProject\\CA2_MobileProject\\Program.cs",
               "RelativeToolTip": "CA2_MobileProject\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAIA6wBwAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAjwBwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T00:26:57.993Z",
               "EditorCaption": ""
@@ -127,8 +126,7 @@
               "RelativeToolTip": "CA2_MobileProject\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T00:24:37.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T00:24:37.074Z"
             },
             {
               "$type": "Document",
@@ -171,8 +169,7 @@
               "RelativeToolTip": "CA2_MobileProject\\Models\\Event.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T00:23:23.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T00:23:23.207Z"
             },
             {
               "$type": "Document",
