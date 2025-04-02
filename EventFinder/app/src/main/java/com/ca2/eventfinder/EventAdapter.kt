@@ -4,8 +4,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import android.content.Intent
 import androidx.recyclerview.widget.RecyclerView
 import com.ca2.eventfinder.model.Event
+
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
+import java.time.format.DateTimeParseException
 
 class EventAdapter(private val events: List<Event>) :
     RecyclerView.Adapter<EventAdapter.EventViewHolder>() {
@@ -27,6 +32,28 @@ class EventAdapter(private val events: List<Event>) :
         holder.title.text = event.title
         holder.date.text = event.dateTime
         holder.location.text = event.location
+
+        holder.itemView.setOnClickListener {
+            val context = holder.itemView.context
+            val intent = Intent(context, EventDetailActivity::class.java).apply {
+                putExtra("title", event.title)
+                putExtra("date", event.dateTime)
+                putExtra("location", event.location)
+                putExtra("description", event.description)
+            }
+            context.startActivity(intent)
+        }
+
+        val input = event.dateTime
+        val formattedDateTime = try {
+            val parsed = LocalDateTime.parse(input)
+            val formatter = DateTimeFormatter.ofPattern("dd MMM yyyy - HH:mm")
+            parsed.format(formatter)
+        } catch (e: DateTimeParseException) {
+            input // fallback to original
+        }
+
+        holder.date.text = formattedDateTime
     }
 
     override fun getItemCount() = events.size
