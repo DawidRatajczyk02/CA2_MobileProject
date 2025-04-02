@@ -1,5 +1,0 @@
-﻿  BinarySearchTree.cpp
-  BinaryTree.cpp
-  Generating Code...
-x64\Debug\BinarySearchTree.obj : warning LNK4042: object specified more than once; extras ignored
-  Binary Search CA.vcxproj -> C:\CA2_MobileProject\CA2_MobileProject\Binary Search CA\x64\Debug\Binary Search CA.exe
