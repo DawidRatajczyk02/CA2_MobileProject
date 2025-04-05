@@ -58,7 +58,7 @@ class EventAdapter(
             val formatter = DateTimeFormatter.ofPattern("dd MMM yyyy - HH:mm")
             parsed.format(formatter)
         } catch (e: DateTimeParseException) {
-            input // fallback to original
+            input
         }
 
         holder.date.text = formattedDateTime

@@ -26,8 +26,6 @@ class EventDetailActivity : AppCompatActivity() {
         val category = intent.getStringExtra("category")
         val price = intent.getDoubleExtra("price", 0.0)
 
-//        Log.d("EventDetailActivity", "Received eventId: $eventId")
-
         findViewById<TextView>(R.id.detailTitle).text = title
         findViewById<TextView>(R.id.detailDate).text = date
         findViewById<TextView>(R.id.detailLocation).text = location
