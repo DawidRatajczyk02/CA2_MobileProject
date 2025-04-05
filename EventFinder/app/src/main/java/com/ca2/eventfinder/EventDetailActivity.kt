@@ -12,6 +12,9 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import androidx.activity.result.contract.ActivityResultContracts
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
+import java.time.format.DateTimeParseException
 import android.util.Log
 import com.ca2.eventfinder.model.Event
 
@@ -42,6 +45,16 @@ class EventDetailActivity : AppCompatActivity() {
         findViewById<TextView>(R.id.detailDescription).text = description
         findViewById<TextView>(R.id.detailCategory).text = category
         findViewById<TextView>(R.id.detailPrice).text = "€%.2f".format(price)
+
+        val formattedDateTime = try {
+            val parsed = LocalDateTime.parse(date)
+            val formatter = DateTimeFormatter.ofPattern("dd MMM yyyy - HH:mm")
+            parsed.format(formatter)
+        } catch (e: Exception) {
+            date ?: ""
+        }
+
+        findViewById<TextView>(R.id.detailDate).text = formattedDateTime
 
         findViewById<Button>(R.id.detailButton).setOnClickListener {
             setResult(RESULT_OK)
@@ -120,6 +133,16 @@ class EventDetailActivity : AppCompatActivity() {
                         findViewById<TextView>(R.id.detailDescription).text = event.description
                         findViewById<TextView>(R.id.detailCategory).text = event.category
                         findViewById<TextView>(R.id.detailPrice).text = "€%.2f".format(event.price)
+
+                        val formattedDateTime = try {
+                            val parsed = LocalDateTime.parse(event.dateTime)
+                            val formatter = DateTimeFormatter.ofPattern("dd MMM yyyy - HH:mm")
+                            parsed.format(formatter)
+                        } catch (e: Exception) {
+                            event.dateTime
+                        }
+
+                        findViewById<TextView>(R.id.detailDate).text = formattedDateTime
                     } else {
                         Toast.makeText(this@EventDetailActivity, "Event not found", Toast.LENGTH_SHORT).show()
                     }

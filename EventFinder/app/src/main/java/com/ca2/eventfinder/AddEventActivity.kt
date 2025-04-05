@@ -72,7 +72,7 @@ class AddEventActivity : AppCompatActivity() {
                 category = category,
                 price = price,
                 dateTime = dateTime,
-                createdByUserId = 4
+                createdByUserId = 5
             )
 
             RetrofitInstance.api.addEvent(newEvent).enqueue(object : Callback<Event> {

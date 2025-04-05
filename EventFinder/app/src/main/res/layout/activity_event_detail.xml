@@ -45,13 +45,13 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center"
-        android:padding="24dp"
+        android:paddingTop="20dp"
         android:weightSum="1">
 
         <Button
             android:id="@+id/deleteButton"
             android:textColor="@android:color/white"
-            android:background="@android:color/holo_red_dark"
+            android:backgroundTint="@android:color/holo_red_dark"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Delete Event"
@@ -59,31 +59,31 @@
             android:paddingRight="10dp"
             android:paddingTop="15dp"
             android:paddingBottom="15dp"
-            android:layout_marginTop="20dp"
+            android:background="@drawable/circular_button_background"
             android:layout_marginEnd="10dp"/>
 
         <Button
             android:id="@+id/editButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/light_green"
             android:text="Edit Event"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:paddingTop="15dp"
             android:paddingBottom="15dp"
-            android:layout_marginTop="20dp"/>
+            android:background="@drawable/circular_button_background"/>
 
         <Button
             android:id="@+id/detailButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Go back"
+            android:backgroundTint="@android:color/darker_gray"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:paddingTop="10dp"
             android:paddingBottom="15dp"
-            android:layout_marginTop="20dp"
+            android:background="@drawable/circular_button_background"
             android:layout_marginStart="20dp"/>
 
     </LinearLayout>
