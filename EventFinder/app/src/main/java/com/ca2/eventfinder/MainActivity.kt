@@ -3,6 +3,7 @@ package com.ca2.eventfinder
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -19,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
     private val addEventLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
         if (result.resultCode == RESULT_OK) {
-            fetchEvents() // Refresh event list when new event is added
+            fetchEvents()
         }
     }
 

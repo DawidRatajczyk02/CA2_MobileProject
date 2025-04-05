@@ -46,6 +46,10 @@ class AddEventActivity : AppCompatActivity() {
             }, calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH), calendar.get(Calendar.DAY_OF_MONTH)).show()
         }
 
+        findViewById<Button>(R.id.backButton).setOnClickListener {
+            finish()
+        }
+
         val submitButton = findViewById<Button>(R.id.submitButton)
         submitButton.setOnClickListener {
             val title = inputTitle.text.toString().trim()
