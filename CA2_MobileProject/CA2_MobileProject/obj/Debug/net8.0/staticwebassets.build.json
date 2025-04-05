@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "SuYDS1H41waodijUtb6azIivQCEOhUb00wWwnIjd9P4=",
+  "Hash": "qRBw85TooMK8Bok0XbGjaDgSMmFwN0gJ0H0DxoPIYq0=",
   "Source": "CA2_MobileProject",
   "BasePath": "_content/CA2_MobileProject",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

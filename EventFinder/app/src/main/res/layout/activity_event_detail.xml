@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="24dp">
+    android:padding="24dp"
+    android:layout_marginTop="100dp">
 
     <TextView android:id="@+id/detailTitle"
         android:textStyle="bold"
@@ -21,9 +22,51 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
+    <TextView android:id="@+id/detailCategory"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
     <TextView android:id="@+id/detailDescription"
         android:layout_marginTop="16dp"
         android:textSize="18sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/detailPrice"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="24dp"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_red_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete Event"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="60dp"/>
+
+        <Button
+            android:id="@+id/detailButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go back"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="60dp"/>
+
+    </LinearLayout>
 </LinearLayout>

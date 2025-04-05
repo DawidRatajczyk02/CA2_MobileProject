@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
             override fun onResponse(call: Call<List<Event>>, response: Response<List<Event>>) {
                 if (response.isSuccessful) {
                     response.body()?.let {
-                        eventAdapter = EventAdapter(it)
+                        eventAdapter = EventAdapter(this@MainActivity, it)
                         recyclerView.adapter = eventAdapter
                     }
                 }
@@ -39,5 +39,12 @@ class MainActivity : AppCompatActivity() {
                 t.printStackTrace()
             }
         })
+    }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: android.content.Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (requestCode == 1) {
+            fetchEvents()
+        }
     }
 }

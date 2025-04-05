@@ -6,13 +6,17 @@ import android.view.ViewGroup
 import android.widget.TextView
 import android.content.Intent
 import androidx.recyclerview.widget.RecyclerView
+import android.app.Activity
 import com.ca2.eventfinder.model.Event
 
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 import java.time.format.DateTimeParseException
 
-class EventAdapter(private val events: List<Event>) :
+class EventAdapter(
+    private val activity: Activity,
+    private val events: List<Event>
+) :
     RecyclerView.Adapter<EventAdapter.EventViewHolder>() {
 
     class EventViewHolder(view: View) : RecyclerView.ViewHolder(view) {
@@ -34,14 +38,18 @@ class EventAdapter(private val events: List<Event>) :
         holder.location.text = event.location
 
         holder.itemView.setOnClickListener {
-            val context = holder.itemView.context
-            val intent = Intent(context, EventDetailActivity::class.java).apply {
+
+            val intent = Intent(activity, EventDetailActivity::class.java).apply {
+                putExtra("eventId", event.eventId)
                 putExtra("title", event.title)
                 putExtra("date", event.dateTime)
                 putExtra("location", event.location)
                 putExtra("description", event.description)
+                putExtra("category", event.category)
+                putExtra("price", event.price)
+
             }
-            context.startActivity(intent)
+            activity.startActivityForResult(intent, 1)
         }
 
         val input = event.dateTime
