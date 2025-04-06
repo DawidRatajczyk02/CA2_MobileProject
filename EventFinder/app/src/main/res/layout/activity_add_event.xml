@@ -23,7 +23,7 @@
 
 
         <TextView
-            android:text="Event Title"
+            android:text="@string/event_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
@@ -33,10 +33,10 @@
             android:id="@+id/inputTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter title" />
+            android:hint="@string/enter_title" />
 
         <TextView
-            android:text="Date and Time"
+            android:text="@string/date_time"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
@@ -46,12 +46,12 @@
             android:id="@+id/inputDateTime"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Select date and time"
+            android:hint="@string/select_date_time"
             android:focusable="false"
             android:clickable="true" />
 
         <TextView
-            android:text="Location"
+            android:text="@string/location"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
@@ -61,10 +61,10 @@
             android:id="@+id/inputLocation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter location" />
+            android:hint="@string/enter_location" />
 
         <TextView
-            android:text="Description"
+            android:text="@string/description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
@@ -74,12 +74,12 @@
             android:id="@+id/inputDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter description"
+            android:hint="@string/enter_description"
             android:inputType="textMultiLine"
             android:minLines="3" />
 
         <TextView
-            android:text="Category"
+            android:text="@string/category"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
@@ -89,10 +89,10 @@
             android:id="@+id/inputCategory"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter category" />
+            android:hint="@string/enter_category" />
 
         <TextView
-            android:text="Price (€)"
+            android:text="@string/price"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
@@ -102,14 +102,14 @@
             android:id="@+id/inputPrice"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter price"
+            android:hint="@string/enter_price"
             android:inputType="numberDecimal" />
 
         <Button
             android:id="@+id/submitButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Submit"
+            android:text="@string/submit"
             android:backgroundTint="@color/teal_700"
             android:textColor="@android:color/white"
             android:layout_marginTop="16dp"/>

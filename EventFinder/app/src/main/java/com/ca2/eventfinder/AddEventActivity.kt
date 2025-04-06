@@ -78,11 +78,11 @@ class AddEventActivity : AppCompatActivity() {
             RetrofitInstance.api.addEvent(newEvent).enqueue(object : Callback<Event> {
                 override fun onResponse(call: Call<Event>, response: Response<Event>) {
                     if (response.isSuccessful) {
-                        Toast.makeText(this@AddEventActivity, "Event added!", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this@AddEventActivity, getString(R.string.event_added), Toast.LENGTH_SHORT).show()
                         setResult(RESULT_OK)
                         finish()
                     } else {
-                        Toast.makeText(this@AddEventActivity, "Failed to add event", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this@AddEventActivity, getString(R.string.add_event_failed), Toast.LENGTH_SHORT).show()
                     }
                 }
 

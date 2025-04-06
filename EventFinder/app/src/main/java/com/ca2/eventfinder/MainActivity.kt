@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
+import java.util.Locale
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -24,6 +25,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -37,7 +39,40 @@ class MainActivity : AppCompatActivity() {
             addEventLauncher.launch(intent)
         }
 
+        val languageButton = findViewById<Button>(R.id.languageButton)
+        setLanguageButtonText(languageButton)
+        languageButton.setOnClickListener {
+            val currentLang = Locale.getDefault().language
+            if (currentLang == "es") {
+                setLocale("en")
+                setLanguageButtonText(languageButton)
+            } else {
+                setLocale("es")
+                setLanguageButtonText(languageButton)
+            }
+        }
+
         fetchEvents()
+    }
+
+    private fun setLocale(languageCode: String) {
+        val locale = Locale(languageCode)
+        Locale.setDefault(locale)
+        val config = resources.configuration
+        config.setLocale(locale)
+        config.setLayoutDirection(locale)
+        resources.updateConfiguration(config, resources.displayMetrics)
+
+        recreate()
+    }
+
+    private fun setLanguageButtonText(languageButton: Button) {
+        val currentLang = Locale.getDefault().language
+        if (currentLang == "es") {
+            languageButton.text = getString(R.string.lang)
+        } else {
+            languageButton.text = getString(R.string.lang)
+        }
     }
 
     private fun fetchEvents() {

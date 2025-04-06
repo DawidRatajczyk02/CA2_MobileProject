@@ -89,11 +89,11 @@ class EditEventActivity : AppCompatActivity() {
         RetrofitInstance.api.updateEvent(event.eventId, event).enqueue(object : Callback<Unit> {
             override fun onResponse(call: Call<Unit>, response: Response<Unit>) {
                 if (response.isSuccessful) {
-                    Toast.makeText(this@EditEventActivity, "Event updated successfully", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@EditEventActivity, getString(R.string.event_updated), Toast.LENGTH_SHORT).show()
                     setResult(RESULT_OK)
                     finish()
                 } else {
-                    Toast.makeText(this@EditEventActivity, "Failed to update event", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@EditEventActivity, getString(R.string.update_event_failed), Toast.LENGTH_SHORT).show()
                 }
             }
 

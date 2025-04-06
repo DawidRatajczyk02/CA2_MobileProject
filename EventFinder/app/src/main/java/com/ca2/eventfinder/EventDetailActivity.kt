@@ -86,12 +86,12 @@ class EventDetailActivity : AppCompatActivity() {
 
     private fun showDeleteConfirmationDialog(eventId: Int) {
         AlertDialog.Builder(this)
-            .setTitle("Delete Event")
-            .setMessage("Are you sure you want to delete this event?")
-            .setPositiveButton("Delete") { _, _ ->
+            .setTitle(getString(R.string.delete_event_title))
+            .setMessage(getString(R.string.delete_event_message))
+            .setPositiveButton(getString(R.string.delete)) { _, _ ->
                 deleteEvent(eventId)
             }
-            .setNegativeButton("Cancel", null)
+            .setNegativeButton(getString(R.string.cancel), null)
             .show()
     }
 
@@ -99,11 +99,11 @@ class EventDetailActivity : AppCompatActivity() {
         RetrofitInstance.api.deleteEvent(eventId).enqueue(object : Callback<Unit> {
             override fun onResponse(call: Call<Unit>, response: Response<Unit>) {
                 if (response.isSuccessful) {
-                    Toast.makeText(this@EventDetailActivity, "Event deleted", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@EventDetailActivity, getString(R.string.event_deleted), Toast.LENGTH_SHORT).show()
                     setResult(RESULT_OK)
                     finish()
                 } else {
-                    Toast.makeText(this@EventDetailActivity, "Delete failed", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@EventDetailActivity, getString(R.string.delete_failed), Toast.LENGTH_SHORT).show()
                 }
             }
 
