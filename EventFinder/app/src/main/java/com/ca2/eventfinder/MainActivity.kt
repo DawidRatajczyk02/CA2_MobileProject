@@ -45,11 +45,10 @@ class MainActivity : AppCompatActivity() {
             val currentLang = Locale.getDefault().language
             if (currentLang == "es") {
                 setLocale("en")
-                setLanguageButtonText(languageButton)
             } else {
                 setLocale("es")
-                setLanguageButtonText(languageButton)
             }
+            setLanguageButtonText(languageButton)
         }
 
         fetchEvents()

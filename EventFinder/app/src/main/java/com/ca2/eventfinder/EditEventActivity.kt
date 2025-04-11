@@ -48,6 +48,9 @@ class EditEventActivity : AppCompatActivity() {
         categoryEditText = findViewById(R.id.categoryEditText)
         priceEditText = findViewById(R.id.priceEditText)
 
+        dateEditText.isFocusable = false
+        dateEditText.isClickable = true
+
         titleEditText.setText(title)
         dateEditText.setText(date)
         locationEditText.setText(location)
