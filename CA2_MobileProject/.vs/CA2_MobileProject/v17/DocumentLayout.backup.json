@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\waiho\\CA2_MobileProject\\CA2_MobileProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5AF83CBB-B62D-4477-8E48-045A5406F580}|CA2_MobileProject\\CA2_MobileProject.csproj|c:\\users\\waiho\\ca2_mobileproject\\ca2_mobileproject\\ca2_mobileproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5AF83CBB-B62D-4477-8E48-045A5406F580}|CA2_MobileProject\\CA2_MobileProject.csproj|solutionrelative:ca2_mobileproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5AF83CBB-B62D-4477-8E48-045A5406F580}|CA2_MobileProject\\CA2_MobileProject.csproj|c:\\users\\waiho\\ca2_mobileproject\\ca2_mobileproject\\ca2_mobileproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5AF83CBB-B62D-4477-8E48-045A5406F580}|CA2_MobileProject\\CA2_MobileProject.csproj|solutionrelative:ca2_mobileproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{5AF83CBB-B62D-4477-8E48-045A5406F580}|CA2_MobileProject\\CA2_MobileProject.csproj|solutionrelative:ca2_mobileproject\\migrations\\20250326170652_addcreatedbyuseridtoevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AF83CBB-B62D-4477-8E48-045A5406F580}|CA2_MobileProject\\CA2_MobileProject.csproj|c:\\users\\waiho\\ca2_mobileproject\\ca2_mobileproject\\ca2_mobileproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5AF83CBB-B62D-4477-8E48-045A5406F580}|CA2_MobileProject\\CA2_MobileProject.csproj|solutionrelative:ca2_mobileproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5AF83CBB-B62D-4477-8E48-045A5406F580}|CA2_MobileProject\\CA2_MobileProject.csproj|c:\\users\\waiho\\ca2_mobileproject\\ca2_mobileproject\\ca2_mobileproject\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5AF83CBB-B62D-4477-8E48-045A5406F580}|CA2_MobileProject\\CA2_MobileProject.csproj|solutionrelative:ca2_mobileproject\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -56,7 +56,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -64,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AppDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\waiho\\CA2_MobileProject\\CA2_MobileProject\\CA2_MobileProject\\Migrations\\AppDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "CA2_MobileProject\\Migrations\\AppDbContextModelSnapshot.cs",
@@ -76,19 +76,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\waiho\\CA2_MobileProject\\CA2_MobileProject\\CA2_MobileProject\\appsettings.json",
               "RelativeDocumentMoniker": "CA2_MobileProject\\appsettings.json",
               "ToolTip": "C:\\Users\\waiho\\CA2_MobileProject\\CA2_MobileProject\\CA2_MobileProject\\appsettings.json",
               "RelativeToolTip": "CA2_MobileProject\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-25T00:32:54.282Z"
+              "WhenOpened": "2025-03-25T00:32:54.282Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\waiho\\CA2_MobileProject\\CA2_MobileProject\\CA2_MobileProject\\Models\\User.cs",
               "RelativeDocumentMoniker": "CA2_MobileProject\\Models\\User.cs",
@@ -101,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\waiho\\CA2_MobileProject\\CA2_MobileProject\\CA2_MobileProject\\Models\\Event.cs",
               "RelativeDocumentMoniker": "CA2_MobileProject\\Models\\Event.cs",
@@ -113,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "20250325171629_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\waiho\\CA2_MobileProject\\CA2_MobileProject\\CA2_MobileProject\\Migrations\\20250325171629_InitialCreate.cs",
               "RelativeDocumentMoniker": "CA2_MobileProject\\Migrations\\20250325171629_InitialCreate.cs",
@@ -125,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "EventsController.cs",
               "DocumentMoniker": "C:\\Users\\waiho\\CA2_MobileProject\\CA2_MobileProject\\CA2_MobileProject\\Controllers\\EventsController.cs",
               "RelativeDocumentMoniker": "CA2_MobileProject\\Controllers\\EventsController.cs",
@@ -137,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\waiho\\CA2_MobileProject\\CA2_MobileProject\\CA2_MobileProject\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "CA2_MobileProject\\Controllers\\UsersController.cs",
@@ -149,13 +150,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\waiho\\CA2_MobileProject\\CA2_MobileProject\\CA2_MobileProject\\Program.cs",
               "RelativeDocumentMoniker": "CA2_MobileProject\\Program.cs",
-              "ToolTip": "C:\\Users\\waiho\\CA2_MobileProject\\CA2_MobileProject\\CA2_MobileProject\\Program.cs",
-              "RelativeToolTip": "CA2_MobileProject\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\waiho\\CA2_MobileProject\\CA2_MobileProject\\CA2_MobileProject\\Program.cs*",
+              "RelativeToolTip": "CA2_MobileProject\\Program.cs*",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwB4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T00:26:57.993Z",
               "EditorCaption": ""
@@ -183,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "20250326170652_AddCreatedByUserIdToEvents.cs",
               "DocumentMoniker": "C:\\Users\\waiho\\CA2_MobileProject\\CA2_MobileProject\\CA2_MobileProject\\Migrations\\20250326170652_AddCreatedByUserIdToEvents.cs",
               "RelativeDocumentMoniker": "CA2_MobileProject\\Migrations\\20250326170652_AddCreatedByUserIdToEvents.cs",

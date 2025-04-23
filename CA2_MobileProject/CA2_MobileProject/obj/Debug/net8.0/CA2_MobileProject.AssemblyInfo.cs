@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CA2_MobileProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cdcf3f689ac9dcdaf739d7621f3c74094b0de2a8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a64d2a3d8e1d7cd66b9ed7fa3def84bdf2f56c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("CA2_MobileProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CA2_MobileProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
