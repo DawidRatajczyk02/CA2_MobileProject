@@ -25,7 +25,15 @@ namespace CA2_MobileProject
             using (var scope = app.Services.CreateScope())
             {
                 var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-                db.Database.Migrate();
+                try
+                {
+                    db.Database.Migrate();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("? Migration failed: " + ex.Message);
+                    throw; // Optional: remove this to let the app run without DB
+                }
             }
 
             app.UseSwagger();

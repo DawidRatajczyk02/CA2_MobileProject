@@ -47,7 +47,7 @@ class MainActivityTest {
     fun testAddEventButton() {
         Thread.sleep(2000)
         onView(withId(R.id.addEventButton)).perform(click())
-        Thread.sleep(1000)
+        Thread.sleep(2000)
         onView(withId(R.id.inputTitle)).perform(typeText("Espresso Test Event"), closeSoftKeyboard())
         onView(withId(R.id.inputLocation)).perform(typeText("Dublin"), closeSoftKeyboard())
         onView(withId(R.id.inputDescription)).perform(typeText("Test description"), closeSoftKeyboard())
